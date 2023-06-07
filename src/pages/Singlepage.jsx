@@ -1,10 +1,12 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const Singlepage = () => {
   const { id } = useParams();
   const [post, setPost] = React.useState([]);
+  const navigate = useNavigate();
+  const goBack = () => navigate(-1);
 
   React.useEffect(() => {
     fetch(`https://jsonplaceholder.org/posts/${id}`)
@@ -15,11 +17,10 @@ const Singlepage = () => {
 
   return (
     <div>
+      <button onClick={goBack}>Go Back</button>
       <h1>{post.title}</h1>
       <span>{post.content}</span>
-      <Link style={{ display: "block", color: "blue" }} to={`/blog/${id}/edit`}>
-        Edit this post
-      </Link>
+      <Link to={`/blog/${id}/edit`}>Edit this post</Link>
     </div>
   );
 };
