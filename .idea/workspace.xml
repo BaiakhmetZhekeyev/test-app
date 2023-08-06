@@ -5,18 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ea04509-3b60-4c51-ae6b-5e768a0eeb6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Container.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/1.variable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/10.constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/11.optional_chaining.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/12.numbers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/13.string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/14.array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/2.data_types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/3.conditional_branching.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/4.loops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/5.switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/6.function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/7.object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/8.object_references_copying.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/9.this_scope.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/matrix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +35,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App.jsx" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,25 +45,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/baiak/Code/test-app",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\baiak\\Code\\test-app\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/baiak/Code/test-app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\baiak\\Code\\test-app\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\baiak\Code\test-app\src\pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.test.js">
+    <configuration name="19.recursion.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/19.recursion.js" working-dir="$PROJECT_DIR$/src/javascript">
+      <method v="2" />
+    </configuration>
+    <configuration name="20.rest_spread.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/20.rest_spread.js" working-dir="$PROJECT_DIR$/src/javascript">
+      <method v="2" />
+    </configuration>
+    <configuration name="21.closure.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/21.closure.js" working-dir="$PROJECT_DIR$/src/javascript">
+      <method v="2" />
+    </configuration>
+    <configuration name="App.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/App.jsx" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/test.js" working-dir="$PROJECT_DIR$/src/javascript">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.App.jsx" />
+        <item itemvalue="Node.js.21.closure.js" />
+        <item itemvalue="Node.js.20.rest_spread.js" />
+        <item itemvalue="Node.js.19.recursion.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +111,27 @@
       <workItem from="1686147773942" duration="11431000" />
       <workItem from="1686242685443" duration="28000" />
       <workItem from="1686492999686" duration="2290000" />
-      <workItem from="1686587533267" duration="5957000" />
+      <workItem from="1686587533267" duration="6641000" />
+      <workItem from="1686666844514" duration="1174000" />
+      <workItem from="1686841583932" duration="36000" />
+      <workItem from="1690601975755" duration="4123000" />
+      <workItem from="1690642811982" duration="7221000" />
+      <workItem from="1690687464338" duration="2036000" />
+      <workItem from="1690697354318" duration="2656000" />
+      <workItem from="1690728811983" duration="7592000" />
+      <workItem from="1690766629029" duration="5971000" />
+      <workItem from="1690777287760" duration="6478000" />
+      <workItem from="1690814260218" duration="7190000" />
+      <workItem from="1690858416019" duration="9190000" />
+      <workItem from="1690871461469" duration="779000" />
+      <workItem from="1690902918645" duration="7409000" />
+      <workItem from="1690948252619" duration="9249000" />
+      <workItem from="1690987470084" duration="2965000" />
+      <workItem from="1690997941513" duration="5811000" />
+      <workItem from="1691030242828" duration="6039000" />
+      <workItem from="1691040317755" duration="2826000" />
+      <workItem from="1691043890083" duration="602000" />
+      <workItem from="1691320360256" duration="17000" />
     </task>
     <servers />
   </component>
